@@ -2,7 +2,7 @@
 
 name = "qr-code-app"
 client_id = "c280478c42622791656ef2cb030362c6"
-application_url = "https://hammer-declaration-analyze-township.trycloudflare.com"
+application_url = "https://boundary-radical-data-rank.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://hammer-declaration-analyze-township.trycloudflare.com/auth/callback",
-  "https://hammer-declaration-analyze-township.trycloudflare.com/auth/shopify/callback",
-  "https://hammer-declaration-analyze-township.trycloudflare.com/api/auth/callback"
+  "https://boundary-radical-data-rank.trycloudflare.com/auth/callback",
+  "https://boundary-radical-data-rank.trycloudflare.com/auth/shopify/callback",
+  "https://boundary-radical-data-rank.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
