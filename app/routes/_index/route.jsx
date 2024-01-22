@@ -21,7 +21,7 @@ export default function App() {
   return (
     <div className="index">
       <div className="content">
-        <h1>A short heading about [your app]</h1>
+        <h1>Create Product QR Codes</h1>
         <p>A tagline about [your app] that describes your value proposition.</p>
         {showForm && (
           <Form method="post" action="/auth/login">
