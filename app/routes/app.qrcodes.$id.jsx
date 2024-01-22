@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { json, redirect } from "@remix-run/node";
+
 import {
   useActionData,
   useLoaderData,
@@ -25,7 +26,7 @@ import {
   BlockStack,
   PageActions,
 } from "@shopify/polaris";
-import { ImageMajor } from "@shopify/polaris-icons";
+// import { ImageMajor } from "@shopify/polaris-icons";
 
 import db from "../db.server";
 import { getQRCode, validateQRCode } from "../models/QRCode.server";
@@ -165,7 +166,7 @@ export default function QRCodeForm() {
                 {formState.productId ? (
                   <InlineStack blockAlign="center" gap="500">
                     <Thumbnail
-                      source={formState.productImage || ImageMajor}
+                      // source={formState.productImage || ImageMajor}
                       alt={formState.productAlt}
                     />
                     <Text as="span" variant="headingMd" fontWeight="semibold">

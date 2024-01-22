@@ -2,7 +2,7 @@
 
 name = "qr-code-app"
 client_id = "c280478c42622791656ef2cb030362c6"
-application_url = "https://accepting-delayed-beer-cut.trycloudflare.com"
+application_url = "https://hammer-declaration-analyze-township.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://accepting-delayed-beer-cut.trycloudflare.com/auth/callback",
-  "https://accepting-delayed-beer-cut.trycloudflare.com/auth/shopify/callback",
-  "https://accepting-delayed-beer-cut.trycloudflare.com/api/auth/callback"
+  "https://hammer-declaration-analyze-township.trycloudflare.com/auth/callback",
+  "https://hammer-declaration-analyze-township.trycloudflare.com/auth/shopify/callback",
+  "https://hammer-declaration-analyze-township.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
